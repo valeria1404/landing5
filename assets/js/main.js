@@ -17,6 +17,7 @@
 
 	};
 
+
 	skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',
@@ -99,6 +100,7 @@
 
 		// Carousels.
 			$('.carousel').each(function() {
+
 
 				var	$t = $(this),
 					$forward = $('<span class="forward"></span>'),
